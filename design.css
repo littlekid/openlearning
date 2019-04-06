@@ -1,3 +1,8 @@
 body {
+  padding-top: 13vh;
   text-align: center;
+}
+
+#learning-material-container {
+  margin-top: 3rem;
 }
