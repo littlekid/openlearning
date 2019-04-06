@@ -1,0 +1,6 @@
+## Loggbok
+
+* Tanken väcktes när utmaningarna för Hack for Sweden kollades igenom
+* Gjorde ett snabbt utkast för en sida
+* Nästa steg är att fylla den med innehåll, tänkte att det enklaste exemplet skulle vara ett faktablad om Sverige och att visa Sveriges befolkning. Samma siffra borde kunna användas till intressanta räkneexempel.
+* Hatar SCBs API. Hur kan ni göra det svårt att få fram siffran på Sveriges befolkning. Svaret är en tabell som verkar vara en fil med rader... Jag kan inte få fram CVS-exempel, för om jag väljer det som format så får jag en CSV-fil direkt i webbgränssnittet istället...
