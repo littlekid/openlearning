@@ -35,3 +35,13 @@
 * Skummar de på https://www.artdatabanken.se/sok-art-och-miljodata/oppna-data-och-apier/api-villkor/
 * Lägger märke till: "Länk till regler för användning av ArtDatabankens information måste synas i applikationen"
 * Lägger till det längst ner på hemsidan för att gardera mig.
+* "Genom att ansluta dig till API:et ger du SLU en icke exklusiv, icke överlåtbar och icke upplåtbar licens att hänvisa till din firma och de eventuella produkter och tjänster som du använder API-innehållet i (inklusive eventuella varumärken som du innehar för sådana produkter eller tjänster), i syfte att informera om att du använder dig av API:et. SLU:s rätt att använda din firma och varumärken är begränsad till källhänvisningar som sker i detta syfte." - gör mig glad! :]
+* Klickar på Confirm
+* Nu ser jag att jag har en "subscription". Nu då?
+* Trycker på Species - Read under rubriken Product under Subscriptions - för att det är den enda länken som kan tänkas leda mig vidare. "Rename" och "Cancel" är de andra två länkarna som finns.
+* Den länken leder mig till https://api-portal.artdatabanken.se/Products/species-read - som jag upplever är en sida som jag nyss varit på? Men var hittar jag hur jag kommer åt APIet?!?!?
+* Där finns två länkar ovanför knappen Subscribe (som inte borde visas eftersom jag redan har subscription!?!?)
+* Testar att klicka på länken Species Information
+* Oj, titta! :D URL! och lite längre ner finns kodexempel! wohooo! :D :D :D (Sidan jag är inne på nu är denna: https://api-portal.artdatabanken.se/docs/services/species-information/operations/5ad736a5dde6451334e9a004)
+* Fanns ett javascript-exempel med jQuery, vi testar det! Vill ju inte publicera min API-nyckel (som jag än så länge inte har en aning om var jag hittar den?!?!) men för detta demos skulle så spelar det nog ingen större roll tänker jag.
+

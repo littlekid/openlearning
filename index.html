@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title></title>
   <link rel="stylesheet" href="design.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 </head>
 <body>
 
@@ -49,5 +50,27 @@
   <div id="details">
     Denna sida använder kanske data ifrån SLU, och när/om vi gör det så gäller detta: "”Genom att använda denna applikation åtar jag mig att följa <a href="https://www.artdatabanken.se/sok-art-och-miljodata/om-artdatabankens-webbapplikationer/">regler för användning av ArtDatabankens information</a>, inklusive att respektera tredje mans upphovsrätt. Detta åtagande görs även direkt mot SLU. Vid brott mot detta kan jag förlora rätten att använda applikationen”."
   </div>
+  <script type="text/javascript">
+    $(function() {
+        var params = {
+            // Request parameters
+        };
+
+        $.ajax({
+            url: "https://api.artdatabanken.se/information/v1/speciesdataservice/v1/speciesdata?taxa={taxa}&" + $.param(params),
+            beforeSend: function(xhrObj){
+                xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","{subscription key}");
+            },
+            type: "GET",
+            data: "{body}",
+        })
+        .done(function(data) {
+            console.log( data );
+        })
+        .fail(function() {
+            alert("error");
+        });
+    });
+</script>
 </body>
 </html>
