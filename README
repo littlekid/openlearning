@@ -4,3 +4,34 @@
 * Gjorde ett snabbt utkast för en sida
 * Nästa steg är att fylla den med innehåll, tänkte att det enklaste exemplet skulle vara ett faktablad om Sverige och att visa Sveriges befolkning. Samma siffra borde kunna användas till intressanta räkneexempel.
 * Hatar SCBs API. Hur kan ni göra det svårt att få fram siffran på Sveriges befolkning. Svaret är en tabell som verkar vara en fil med rader... Jag kan inte få fram CVS-exempel, för om jag väljer det som format så får jag en CSV-fil direkt i webbgränssnittet istället...
+* Struntar i SCB för tillfället och kollar efter annan datakälla
+* Undrar om det finns data kring fridlysta djur och växter
+* Hittar till http://artfakta.artdatabanken.se/ där det går att visa arter som är "Akut hotad" vilket ju är kanonbra urval för faktablad om djur som alltså är utrotningshotade och vad det betyder o.s.v.
+* Letar efter api för artfakta...
+* Hittar till https://www.artdatabanken.se/sok-art-och-miljodata/oppna-data-och-apier/om-artdatabankens-apier/ där det står "Från och med 28 mars och tills vidare är Artportalens läs-API stängt för nya utvecklare. [Läs mer om nedskärningarna](https://www.artdatabanken.se/aktuellt/artdatabankens-nyheter/nedskarningar-drabbar-artportalen/)"
+* Vilken annan data kan tänkas vara tillgänglig?
+* Går till öppnadata.se och väljer kategorin Jordbruk, fiske o.s.v. .. kommer till sida där det står Tema: undefined i sökrutan.. och 0 resultat. Så länkarna på startsidan funkar helt enkelt inte.
+* På sidan https://oppnadata.se/datamangder kan du dock välja kategori i listningen under rubriken "Tema", då fungerar filtreringen. 
+* Tittade på tipsen som kom in på slacken - att SLU har länkar till bilder.
+* Söker på SLU öppna data på google
+* Hittar in till https://www.slu.se/miljoanalys/statistik-och-miljodata/oppna-data-vid-slu/
+* Där finns rubriken "Artfakta (REST)" - låter ju som det jag nyss var ute efter!
+* Ser rubriken Url till mer information (https://api-portal.artdatabanken.se) och tar mig dit
+* På sidan https://api-portal.artdatabanken.se
+* Sign up
+* Capcha? Har artdatabanken problem med låtsaskonton?!
+* ... och nu då? Möts av Your subscriptions och Your applications... ?!?!?!?
+* Jag får väl titta runt tänker jag, klickar på Documentation
+* " Species information Innehåll: API:et hämtar artrelaterad information ur ArtDatabankens Artfaktadatabas i produktionsmiljön. Läs mer om API:et på ArtDatabankens webbplats " - verkar ju vara vad jag är ute efter
+* "Åtkomst: Allmän åtkomst. Åtkomst till API:et fås genom att prenumerera på en produkt där API:et finns med. API:et finns med i alla produkter." - Va? produkter? Promenerar på produkter?! ... Nu är det nog någon som köpt in en färdig större helhetslösning och bundit sig till en väldigt underlig terminologi tänker jag. "alla produkter" är en länk så jag får väl fortsätta ner i kaninhålet.
+* Klickar på alla produkter (https://api-portal.artdatabanken.se/products)
+* Under rubriken "Species - Read" ser jag länken "Till produkten" som leder till:
+* https://api-portal.artdatabanken.se/products/species-read
+* Ser den stora subscribe-knappen och trycker på den
+* Konstaterar för mig själv att om en skulle läsa all den text som presenteras överallt på vägen så skulle allting ta alldeles för lång tid för att ta sig igenom. Jag vill läsa mer så småningom, när jag väl fått ett anrop att fungera alls och när jag vill finjustera och fördjupa mig i att förstå den fulla potentialen i vad som är möjligt. Men om jag inte får någonting att fungera alls så spelar detaljerna och alla möjligheter ingen roll.
+* Möts av rubriken "Subscribe to product" och ännu mer text... ja, jag vill prenumerera, det var ju därför jag tryckte på subscribe ifrån första början...
+* Terminologin _produkt_ .... suckar för mig själv
+* Klickar på Terms of Use
+* Skummar de på https://www.artdatabanken.se/sok-art-och-miljodata/oppna-data-och-apier/api-villkor/
+* Lägger märke till: "Länk till regler för användning av ArtDatabankens information måste synas i applikationen"
+* Lägger till det längst ner på hemsidan för att gardera mig.
