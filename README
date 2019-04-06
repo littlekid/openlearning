@@ -44,4 +44,7 @@
 * Testar att klicka på länken Species Information
 * Oj, titta! :D URL! och lite längre ner finns kodexempel! wohooo! :D :D :D (Sidan jag är inne på nu är denna: https://api-portal.artdatabanken.se/docs/services/species-information/operations/5ad736a5dde6451334e9a004)
 * Fanns ett javascript-exempel med jQuery, vi testar det! Vill ju inte publicera min API-nyckel (som jag än så länge inte har en aning om var jag hittar den?!?!) men för detta demos skulle så spelar det nog ingen större roll tänker jag.
-
+* Råkar lägga märke till " Subscription key which provides access to this API. Found in your Profile. " Profile är länk dit, så vi följer den!
+* Tillbaka till sidan som bara listar en subscription, här finns inga nycklar... Jag GISSAR att jag behöver skapa en application så jag testar det
+* ... La tid på att fylla i rubrik och beskrivning... spara.. nepp, ingen nyckel. ARHG?!?!? Var hittar jag nyckel?!?!?
+* Ush, började knåpa vid 9-tiden imorse och nu är kl. 12:37 och jag ger upp för den här gången.
